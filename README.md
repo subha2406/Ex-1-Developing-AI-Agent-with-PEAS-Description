@@ -16,6 +16,20 @@ Sensors
 
 It’s a framework used to define the task environment for an AI agent clearly.
 
+### Pick an AI Problem
+
+```
+
+1. Self-driving car
+
+2. Chess playing agent
+
+3. Vacuum cleaning robot
+
+4. Email spam filter
+
+5. Personal assistant (like Siri or Alexa)
+
 ### Algorithm:
 Step 1: Initialize:
 
