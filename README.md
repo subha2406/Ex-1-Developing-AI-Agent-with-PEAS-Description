@@ -29,7 +29,7 @@ It’s a framework used to define the task environment for an AI agent clearly.
 4. Email spam filter
 
 5. Personal assistant (like Siri or Alexa)
-
+```
 ### Algorithm:
 Step 1: Initialize:
 
