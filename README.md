@@ -1,21 +1,28 @@
 # Ex-1-Developing-AI-Agent-with-PEAS-Description
-Name: Subha Shree U
-Register Number: 2305002025
-Aim:
+### Name: Subha Shree U
+
+### Register Number: 2305002025
+
+### Aim:
 To find the PEAS description for the given AI problem and develop an AI agent.
 
-Theory :
-PEAS stands for: ''' P-Performance measure
+### Theory :
+PEAS stands for:
+'''
+P-Performance measure
 
 E-Environment
 
 A-Actuators
 
-S-Sensors '''
+S-Sensors
+'''
 
 It’s a framework used to define the task environment for an AI agent clearly.
 
-Pick an AI Problem
+### Pick an AI Problem
+
+```
 
 1. Self-driving car
 
@@ -26,8 +33,10 @@ Pick an AI Problem
 4. Email spam filter
 
 5. Personal assistant (like Siri or Alexa)
-Personal assistant
-Algorithm:
+```
+
+### Personal assistant
+### Algorithm:
 Step 1: Initialize the Environment
 
 Step 2: Add Tasks to the Environment
@@ -38,9 +47,10 @@ Step 4: Agent Loop (Sense-Think-Act Cycle)
 
 Repeat the following steps until there are no more tasks in the environment:
 
-Step 5: Print Summary after the loop ends , print the list of perceptions, print the list of actions.
+Step 5: Print Summary after the loop ends , print the list of perceptions, print the list of actions.
 
-Program:
+### Program:
+~~~
 class Environment:
     def __init__(self):
         self.tasks = []
@@ -100,7 +110,13 @@ if __name__ == "__main__":
 
     print("\nAssistant's perceptions:", assistant.percepts)
     print("Assistant's actions:", assistant.actions)
-Output:
-image
-Result:
+~~~
+
+#### Output:
+
+<img width="814" height="378" alt="image" src="https://github.com/user-attachments/assets/938f14a1-4fc5-4adf-8e4e-41dd1b3c8cfa" />
+
+
+### Result:
+
 The Personal Assistant program was successfully implemented using Python.
